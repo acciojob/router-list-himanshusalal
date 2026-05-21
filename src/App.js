@@ -12,18 +12,14 @@ import ItemDetail from "./ItemDetail";
 function App() {
   return (
     <BrowserRouter>
-
       <Switch>
-
         <Route exact path="/" component={ItemList} />
 
         <Route
           path="/items/:id"
           component={ItemDetail}
         />
-
       </Switch>
-
     </BrowserRouter>
   );
 }
